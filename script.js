@@ -14,3 +14,10 @@ function myFunction() {
         var z = 30; // Block scope
     }
 }
+
+// Reassignment, redeclaration
+name = "Shah"; // Reassignment
+age = 23; // Reassignment
+var name = "Ehsan"; // Redeclaration
+// let age = 32; // Error: Identifier 'age' has already been declared
+console.log(name, age);
