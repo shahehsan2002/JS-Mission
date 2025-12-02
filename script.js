@@ -15,9 +15,16 @@ function myFunction() {
     }
 }
 
+
 // Reassignment, redeclaration
 name = "Shah"; // Reassignment
 age = 23; // Reassignment
 var name = "Ehsan"; // Redeclaration
 // let age = 32; // Error: Identifier 'age' has already been declared
 console.log(name, age);
+
+
+// Temporal Dead Zone
+console.log(a); // ReferenceError
+let a = 5;
+console.log(a); // 5
